@@ -1,0 +1,49 @@
+#carouselExampleControls blockquote{
+  display:block;
+  padding-top: 15px;
+  
+  /*Font*/
+  font-family: "LatoWebLight";
+  font-size: 20px;
+  line-height: 1.2;
+  color: #737c85;
+  text-align: justify;
+  font-style: italic;
+}
+
+blockquote::before{
+  /*Reset to make sure*/
+  content: "\201C";
+  
+  /*Font*/
+  font-family: "LatoWeb";
+  font-size: 48px;
+  font-style: italic;
+  color: deeppink;
+  
+  /*Positioning*/
+  position: relative;
+  left: 0px;
+  top: -20px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "\201D";
+  
+  /*Font*/
+  font-family: "LatoWeb";
+  font-size: 48px;
+  font-style: italic;
+  color: deeppink;
+  
+  /*Positioning*/
+  position: absolute;
+  right: 18%;
+  bottom: auto;
+}
+
+blockquote p {
+	padding-left: 5px;
+    margin-top: -48px;
+}
