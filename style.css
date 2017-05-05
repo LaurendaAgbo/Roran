@@ -1,0 +1,273 @@
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+	/* padding-top: 15px; */
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+a {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-size: 1.0em;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/***** DEBUT HEADER   ****/
+#home {
+	background-color: #39a38f;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	color: #fff;
+	height: 620px;
+}
+
+#header {
+	padding-left: 0px;
+    margin-top: 50px;
+}
+
+#header p {
+	line-height: 0.8em;
+}
+
+#header a {
+	font-family: "Open Sans";
+	font-size: 18px;
+	padding-left: 5px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+	font-style: italic;
+}
+
+#barre {
+	padding-left: 5px;
+}
+
+#barre hr {
+	border-top: 1px solid white;
+}
+
+#rectangle {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(10, 10, 10, 0.3);
+	position:  relative;
+    top: 65px;
+	right: -118px;
+	padding-right: 145px;
+    text-align: right;
+    padding-top: 14px;
+}
+
+#rectangle p {
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+	font-style: bold;
+	color: white;
+}
+
+.bg-faded {
+    background: none;
+}
+
+/*  
+.dropdown-menu {
+	background-color: #91bebf;
+	border: none;
+	top: 80%;
+}
+
+.dropdown-item {
+	color: #fff;
+}
+ */
+#oblique {
+	width: 100%;
+    height: 110px;
+    background-color: #39a38f;
+    position: relative;
+    top: 41px;
+    right: -235px;
+    transform: rotate(125deg);
+    z-index: 99; /* Standard syntax */
+}
+
+#slidetext1 {
+	font-family: "Open Sans Extrabold";
+	font-size: 100px;
+	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
+}
+
+#slidetext2 {
+	font-family: "Open Sans Regular";
+	font-size: 54px;
+	padding-left: 5px;
+	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
+}
+
+#slidetext3 {
+	font-family: "Open Sans Regular";
+	font-size: 34px;
+	padding-left: 5px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+}
+
+ /*****   Début Flêches défilantes   ****/
+ 
+ section {
+	position: relative;
+}
+
+.arrowsDemo a {
+	position: absolute;
+	bottom: -160px;
+	left: 50%;
+	color: white;
+}
+.arrowsDemo a:hover {
+	opacity: .5;
+	color: white;
+}
+
+#arrows a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+#arrows a span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+#arrows a span:nth-of-type(2) {
+	top: 16px;
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+#arrows a span:nth-of-type(3) {
+	top: 32px;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/*****   Fin Flêches défilantes   ****/
+ 
+/*****   Début Branding   ****/
+
+#menu {
+	margin-bottom: -15px;
+}  
+#logo a {
+	font-family: "Open Sans Extrabold";
+	font-size: 30px;
+	color: #303030;
+	margin-top: 5px;
+}
+
+#logo a:hover, #logo a:focus {
+	color: #303030;
+}
+ 
+#logo a span {
+	font-family: "Open Sans Extrabold";
+	font-size: 30px;
+	color: #39a38f;
+ }
+
+ #navigation {
+	padding-top: 20px;
+ }
+
+ #navigation ul li {
+	width: 137px;
+ }
+
+#navigation a {
+	font-family: "Open Sans";
+	font-style: regular;
+	font-size: 14px;
+	color: #a4a4a4;
+}
+
+#navigation a:hover, #navigation a:focus {
+	color: #303030;
+}
+  
+ #navigation .active a {
+	color: #303030;
+}
+
+#socialMedia {
+	padding-top: 25px;
+ }
+ 
+ #socialMedia a {
+	margin-right: 10px;
+ }
+ 
+#socialMedia a {
+	color: #a4a4a4;
+}
+/*****   Fin Branding   ****/
+
+/*****   Début Services   ****/
+
+#serviceName {
+	margin-bottom: -10px;
+}
+    
+#serviceName a {
+	font-family: "Open Sans Extrabold";
+	font-size: 27px;
+	color: #303030;
+}
+
+#serviceName p {
+	font-family: "Open Sans";
+	font-style: regular;
+	font-size: 21px;
+	color: #979797;
+}
+
+/*****   Fin Services   ****/
